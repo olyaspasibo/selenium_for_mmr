@@ -59,27 +59,32 @@ public class LogIn {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("incognito");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        long startTime = System.nanoTime();
         driver.get("https://qa2-lsegxmr.com/mrs");
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 120);
 
 
 
-            WebElement login = driver.findElement(userName);
-            sendKeysTo(login, email);
+        WebElement login = driver.findElement(userName);
+        sendKeysTo(login, email);
+        WebElement password_w = driver.findElement(passWord);
+        sendKeysTo(password_w, password);
 
-            WebElement password_w = driver.findElement(passWord);
-            sendKeysTo(password_w, password);
+        driver.findElement(loginButton).click();
+        driver.manage().window().maximize();
+        double endTime = System.nanoTime();
 
-            driver.findElement(loginButton).click();
-            driver.manage().window().maximize();
+        double duration = (endTime - startTime);
+        System.out.println("Time: " + duration);
+        System.out.println("Time: " + (duration/1000000000));
             //driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
 
 
 
         //driver.findElement(advanced).click();
         //driver.findElement(proceed).click();
-        //Thread.sleep(3000);
+        Thread.sleep(4000);
 //        for (int i = 0; i < 20; i++) {
 //            jse.executeScript("window.open(\"https://qa1-lsegxmr.com/mrs\");");
 //        }
@@ -91,29 +96,36 @@ public class LogIn {
 
         //driver.switchTo().window(tabs.get(0)); // switch back to main screen
         //driver.get("https://www.news.google.com");
-//        WebElement inputTextBox = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
-////                "autoCompleteSearch", "inputTextBox"});
-////        inputTextBox.sendKeys("BP.");
-////        WebElement startDay = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
-////                "datePicker", "dateInput","firstInput", "numberInput"});
-////        startDay.click();
-////        startDay.clear();
-////        startDay.sendKeys("26");
-////
-////
-////        WebElement startMonth = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
-////                "datePicker", "dateInput", "secondInput", "numberInput"});
-////        startMonth.click();
-////        startMonth.clear();
-////        startMonth.sendKeys("09");
-////
-////
-////        WebElement startYear = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
-////                "datePicker", "dateInput", "secondInput", "numberInput"});
-////        startMonth.click();
-////        startMonth.clear();
-////        startMonth.sendKeys("2019");
-        //driver.manage().window().maximize();
+        System.out.println("1");
+        WebElement inputTextBox = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
+                "autoCompleteSearch", "inputTextBox"});
+        System.out.println("2");
+        wait.until(ExpectedConditions.elementToBeClickable(inputTextBox));
+        inputTextBox.click();
+        System.out.println("3");
+        inputTextBox.sendKeys("BP.");
+        System.out.println("4");
+
+        WebElement startDay = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
+                "datePicker", "dateInput","firstInput", "numberInput"});
+        startDay.click();
+        startDay.clear();
+        startDay.sendKeys("03");
+
+//
+//        WebElement startMonth = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
+//                "datePicker", "dateInput", "secondInput", "numberInput"});
+//        startMonth.click();
+//        startMonth.clear();
+//        startMonth.sendKeys("09");
+//
+//
+//        WebElement startYear = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
+//                "datePicker", "dateInput", "thirdInput", "numberInput"});
+//        startYear.click();
+//        startYear.clear();
+//        startYear.sendKeys("2019");
+
 //        WebElement instr = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
 //                "autoCompleteSearch", "inputTextBox"});
 //        instr.sendKeys("BP.");
@@ -133,8 +145,17 @@ public class LogIn {
 //
 //
 //
-//        WebElement createButton = getOutOfDom(new String[]{"mainView", "sessionCreator", "createButton"});
-//        createButton.click();
+        WebElement createButton = getOutOfDom(new String[]{"mainView", "sessionCreator", "createButton"});
+        createButton.click();
+
+//        WebElement queryLoadingSpin = getOutOfDom(new String[]{"mainView", "sessionCreator"});
+//        System.out.println(queryLoadingSpin.getAttribute("innerHTML"));
+//        WebElement spin = queryLoadingSpin.findElement(By.className("query-loading-container"));
+//        wait.until(ExpectedConditions.invisibilityOf(spin));
+
+//        WebElement playButton = getOutOfDom(new String[]{"mainView", "replayController", "playPause", "playButton"});
+//        playButton.click();
+
 //        long startTime = System.nanoTime();
 //
 //        WebElement eventNavigator = getOutOfDom(new String[]{"mainView", "mainSplitterLayout", "eventLogContainer",

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8aa79af-e044-4834-8e69-48d6fa32736e" name="Default Changelist" comment="" />
+    <list default="true" id="e8aa79af-e044-4834-8e69-48d6fa32736e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/HistoricalData.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="130" column="24" lean-forward="true" selection-start-line="130" selection-start-column="24" selection-end-line="147" selection-end-column="64" />
+            <state relative-caret-position="315">
+              <caret line="160" column="60" lean-forward="true" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state relative-caret-position="313">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,6 +153,9 @@
       <find>ju</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -159,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/test/java/PlaySession.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangeTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LogIn.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogInTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LogIn.java" />
       </list>
     </option>
   </component>
@@ -175,14 +185,14 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,9 +274,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -289,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogInTest">
+  <component name="RunManager" selected="TestNG.LogInTest.firstTest1">
     <configuration name="Auth.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MRS_MSS" />
       <option name="PACKAGE_NAME" value="" />
@@ -374,8 +386,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogInTest" />
         <item itemvalue="TestNG.LogInTest.firstTest1" />
+        <item itemvalue="TestNG.LogInTest" />
         <item itemvalue="TestNG.LogInTest.firstTest" />
         <item itemvalue="JUnit.Auth.firstTest" />
         <item itemvalue="JUnit.LogInTest.firstTest" />
@@ -406,42 +418,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 53m 54s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 46m 50s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 54m 35s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 50m 16s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 55m 14s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 52m 51s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 56m 32s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 54m 46s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 57m 24s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 58m 14s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 12h 58m 21s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 58m 55s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 13h 35m 38s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 00m 31s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 13h 37m 32s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 25m 01s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.11.25 at 13h 42m 09s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 29m 31s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest - 2020.11.25 at 14h 10m 51s.xml">
-      <configuration name="LogInTest" configurationId="TestNG" />
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 31m 36s.xml">
+      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2907916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" visible="true" weight="0.27864215" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" weight="0.27864215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +469,7 @@
       <window_info anchor="bottom" id="SBT Execute" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503231" side_tool="true" weight="0.28005657" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -637,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="313">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -647,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="130" column="24" lean-forward="true" selection-start-line="130" selection-start-column="24" selection-end-line="147" selection-end-column="64" />
+        <state relative-caret-position="315">
+          <caret line="160" column="60" lean-forward="true" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

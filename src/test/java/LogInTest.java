@@ -19,21 +19,13 @@ public class LogInTest extends WebDriverSettings {
     //@Description("Check that logging in is correct with correct password and username")
     public void firstTest1() throws Exception {
 
-        //long startTime = System.nanoTime();
 
 
-        //StopWatch stopwatch = new StopWatch();
-        //stopwatch.start();
-        //for (int i = 1; i < 200; i++) {
+        for (int i = 1; i < 2; i++) {
             LogIn pageObject = new LogIn(driver, wait);
-            pageObject.logIn(email + Integer.toString(1), password);
-        //}
-        // Stop the StopWatch
-//        double endTime = System.nanoTime();
-//
-//        double duration = (endTime - startTime);// / 1000000000;
-//        System.out.println("Time: " + duration);
-//        System.out.println("Time: " + (duration/ 1000000000));
+            pageObject.logIn(email + i, password);
+        }
+
 
 
     }
