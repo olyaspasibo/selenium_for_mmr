@@ -1,7 +1,6 @@
 package pages;
 
-
-
+import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,12 +9,12 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.ArrayList;
-
 
 public class LogIn {
+
     public  WebDriver driver;
     private WebDriverWait wait;
+    // Cognito buttons. xPath selector used because thare are duplicates with same id.
     private By userName = By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div/div/form/div[1]/input");
     private By passWord = By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div/div/form/div[2]/input");
     private By loginButton =  By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div/div/form/input[3]");
@@ -28,11 +27,15 @@ public class LogIn {
         this.wait = wait;
     }
 
+
+    // Just a short cut
     public void sendKeysTo(WebElement input, String st) {
         input.click();
         input.sendKeys(st);
     }
 
+    // xMR web-page consists of shadow-root elements. Therefore, it's impossible to manipulate web-elements
+    // directly. This function is used for unwrapping shadow-root.
     public WebElement getOutOfDom(String [] arr) {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         WebElement mrsAppcomp = driver.findElement(By.tagName("mrs-app-component"));
@@ -51,21 +54,24 @@ public class LogIn {
     }
 
 
-    //@Step("Loging in")
+    @Step("Loging in")
     public void logIn(String email, String password) throws Exception{
+        // Open and run web-driver.
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
-        driver = new EventFiringWebDriver(new ChromeDriver());
+        //driver = new EventFiringWebDriver(new ChromeDriver());
+        driver = new ChromeDriver();
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         ChromeOptions options = new ChromeOptions();
+        // Set up incognito mode
         options.addArguments("incognito");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        // Start timer
         long startTime = System.nanoTime();
         driver.get("https://qa2-lsegxmr.com/mrs");
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 120);
 
-
-
+        // Login (Cognito)
         WebElement login = driver.findElement(userName);
         sendKeysTo(login, email);
         WebElement password_w = driver.findElement(passWord);
@@ -78,32 +84,17 @@ public class LogIn {
         double duration = (endTime - startTime);
         System.out.println("Time: " + duration);
         System.out.println("Time: " + (duration/1000000000));
-            //driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
 
-
-
-        //driver.findElement(advanced).click();
-        //driver.findElement(proceed).click();
         Thread.sleep(4000);
-//        for (int i = 0; i < 20; i++) {
-//            jse.executeScript("window.open(\"https://qa1-lsegxmr.com/mrs\");");
-//        }
 
-//        driver.findElement(By.cssSelector("body")).sendKeys(Keys.COMMAND+"t");
-//        ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
-//        driver.switchTo().window(tabs.get(1)); //switches to new tab
-//        driver.get("https://www.facebook.com");
-
-        //driver.switchTo().window(tabs.get(0)); // switch back to main screen
-        //driver.get("https://www.news.google.com");
-        System.out.println("1");
         WebElement inputTextBox = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
                 "autoCompleteSearch", "inputTextBox"});
-        System.out.println("2");
+
+
         wait.until(ExpectedConditions.elementToBeClickable(inputTextBox));
         inputTextBox.click();
-        System.out.println("3");
-        inputTextBox.sendKeys("BP.");
+
+        inputTextBox.sendKeys("LSE");
         System.out.println("4");
 
         WebElement startDay = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
@@ -111,6 +102,7 @@ public class LogIn {
         startDay.click();
         startDay.clear();
         startDay.sendKeys("03");
+
 
 //
 //        WebElement startMonth = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
@@ -137,7 +129,7 @@ public class LogIn {
 //        startHour.sendKeys("06");
 //
 //        WebElement startMinute = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
-//                "timeInput", "hours", "numberInput"});
+//                "timeInput", "minutes", "numberInput"});
 //        startMinute.click();
 //        startMinute.clear();
 //        startMinute.sendKeys("00");
@@ -148,10 +140,17 @@ public class LogIn {
         WebElement createButton = getOutOfDom(new String[]{"mainView", "sessionCreator", "createButton"});
         createButton.click();
 
-//        WebElement queryLoadingSpin = getOutOfDom(new String[]{"mainView", "sessionCreator"});
-//        System.out.println(queryLoadingSpin.getAttribute("innerHTML"));
-//        WebElement spin = queryLoadingSpin.findElement(By.className("query-loading-container"));
-//        wait.until(ExpectedConditions.invisibilityOf(spin));
+
+
+        Thread.sleep(15000);
+        //WebElement queryLoadingSpin = getOutOfDom(new String[]{"mainView", "sessionCreator"});
+        //System.out.println(queryLoadingSpin.getAttribute("innerHTML"));
+        //div.query-loading-container
+        //WebElement spin = queryLoadingSpin.findElement(By.className("query-loading"));
+
+        //wait.until(ExpectedConditions.invisibilityOf(spin));
+
+        //*[@id="sessionCreator"]//div[1]
 
 //        WebElement playButton = getOutOfDom(new String[]{"mainView", "replayController", "playPause", "playButton"});
 //        playButton.click();

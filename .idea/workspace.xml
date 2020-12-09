@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8aa79af-e044-4834-8e69-48d6fa32736e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/HistoricalData.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChangeTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentSearch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTimerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaySession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LogIn.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +31,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="160" column="60" lean-forward="true" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
+            <state relative-caret-position="2088">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,32 +64,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="58" column="101" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="101" />
+            <state relative-caret-position="-114">
+              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ChangeTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,34 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PlaySession.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyTimerTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Auth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="759">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="63" column="48" selection-start-line="55" selection-start-column="10" selection-end-line="63" selection-end-column="48" />
+            <state relative-caret-position="195">
+              <caret line="55" selection-start-line="55" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,12 +134,13 @@
         <option value="$PROJECT_DIR$/src/test/java/AuthPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Auth.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlaySession.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangeTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogInTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LogIn.java" />
       </list>
     </option>
@@ -192,7 +163,6 @@
     </navigator>
     <panes>
       <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -418,41 +389,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 46m 50s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 12m 02s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 50m 16s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 19m 04s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 52m 51s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 22m 47s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 54m 46s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 25m 51s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 58m 14s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 26m 39s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 15h 58m 55s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 31m 04s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 00m 31s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 53m 20s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 25m 01s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 54m 28s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 29m 31s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 56m 08s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 16h 31m 36s.xml">
+    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 58m 41s.xml">
       <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2907916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" weight="0.27864215" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" visible="true" weight="0.27864215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +441,7 @@
       <window_info anchor="bottom" id="SBT Execute" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503231" side_tool="true" weight="0.28005657" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -532,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ContentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -559,16 +524,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Auth.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlaySession.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyTimerTask.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -579,57 +539,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="58" column="101" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChangeTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlaySession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyTimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Auth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-114">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -638,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="63" column="48" selection-start-line="55" selection-start-column="10" selection-end-line="63" selection-end-column="48" />
+        <state relative-caret-position="195">
+          <caret line="55" selection-start-line="55" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -648,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -658,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="160" column="60" lean-forward="true" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
+        <state relative-caret-position="2088">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

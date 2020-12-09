@@ -70,6 +70,8 @@ public class MainPage {
         WebElement example = (WebElement) jse.executeScript("return arguments[0].shadowRoot", s);
 
         WebElement dateAndTime = example.findElement(By.cssSelector(".date-time-container"));
+
+
         WebElement date = example.findElement(By.id("datePicker"));
         WebElement time2 = example.findElement(By.id("timeInput"));
         WebElement time = (WebElement) jse.executeScript("return arguments[0].shadowRoot", time2);

@@ -62,8 +62,8 @@ public class WebDriverSettings {
 //        driver.get("https://qa2-lsegxmr.com/mrs");
 //        driver.manage().window().maximize();
 //        wait = new WebDriverWait(driver, 120);
-        //driver.findElement(advanced).click();
-        //driver.findElement(proceed).click();
+//        driver.findElement(advanced).click();
+//        driver.findElement(proceed).click();
 
 
     }
