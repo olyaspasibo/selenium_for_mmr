@@ -1,6 +1,5 @@
 package pages;
 
-import io.qameta.allure.Step;
 import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -53,7 +52,7 @@ public class MainPage {
     private By loginButton = By.id("inputLoginButton");
 
 
-    @Step("Searching Instrument")
+    //@Step("Searching Instrument")
     public void searchInstrument(String instrument_test) throws Exception {
         Thread.sleep(3000);
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("mrs-app-component")));

@@ -1,9 +1,10 @@
 package pages;
 
-import io.qameta.allure.Step;
+//import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -54,20 +55,16 @@ public class LogIn {
     }
 
 
-    @Step("Loging in")
+//    @Step("Loging in")
     public void logIn(String email, String password) throws Exception{
         // Open and run web-driver.
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
-        //driver = new EventFiringWebDriver(new ChromeDriver());
         driver = new ChromeDriver();
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        ChromeOptions options = new ChromeOptions();
-        // Set up incognito mode
-        options.addArguments("incognito");
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
         // Start timer
-        long startTime = System.nanoTime();
-        driver.get("https://qa2-lsegxmr.com/mrs");
+        //long startTime = System.nanoTime();
+
+        driver.get("https://qa1-lsegxmr.com/mrs");
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 120);
 
@@ -79,29 +76,36 @@ public class LogIn {
 
         driver.findElement(loginButton).click();
         driver.manage().window().maximize();
-        double endTime = System.nanoTime();
-
-        double duration = (endTime - startTime);
-        System.out.println("Time: " + duration);
-        System.out.println("Time: " + (duration/1000000000));
-
-        Thread.sleep(4000);
-
-        WebElement inputTextBox = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
-                "autoCompleteSearch", "inputTextBox"});
+        //String selectAll = Keys.chord(Keys.COMMAND, "h");
+        //driver.findElement(passWord).sendKeys(selectAll);
+        //Actions action = new Actions(driver);
+        //action.sendKeys(Keys.COMMAND, "t");
 
 
-        wait.until(ExpectedConditions.elementToBeClickable(inputTextBox));
-        inputTextBox.click();
-
-        inputTextBox.sendKeys("LSE");
-        System.out.println("4");
-
-        WebElement startDay = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
-                "datePicker", "dateInput","firstInput", "numberInput"});
-        startDay.click();
-        startDay.clear();
-        startDay.sendKeys("03");
+        //action.keyDown(Keys.CONTROL).sendKeys(String.valueOf('\u0061')).perform();
+//        double endTime = System.nanoTime();
+//
+//        double duration = (endTime - startTime);
+//        System.out.println("Time: " + duration);
+//        System.out.println("Time: " + (duration/1000000000));
+//
+//        Thread.sleep(4000);
+//
+//        WebElement inputTextBox = getOutOfDom(new String[]{"mainView", "sessionCreator", "entitySearch1",
+//                "autoCompleteSearch", "inputTextBox"});
+//
+//
+//        wait.until(ExpectedConditions.elementToBeClickable(inputTextBox));
+//        inputTextBox.click();
+//
+//        inputTextBox.sendKeys("LSE");
+//        System.out.println("4");
+//
+//        WebElement startDay = getOutOfDom(new String[]{"mainView", "sessionCreator", "fromTime",
+//                "datePicker", "dateInput","firstInput", "numberInput"});
+//        startDay.click();
+//        startDay.clear();
+//        startDay.sendKeys("03");
 
 
 //
@@ -137,12 +141,12 @@ public class LogIn {
 //
 //
 //
-        WebElement createButton = getOutOfDom(new String[]{"mainView", "sessionCreator", "createButton"});
-        createButton.click();
-
-
-
-        Thread.sleep(15000);
+//        WebElement createButton = getOutOfDom(new String[]{"mainView", "sessionCreator", "createButton"});
+//        createButton.click();
+//
+//
+//
+//        Thread.sleep(15000);
         //WebElement queryLoadingSpin = getOutOfDom(new String[]{"mainView", "sessionCreator"});
         //System.out.println(queryLoadingSpin.getAttribute("innerHTML"));
         //div.query-loading-container

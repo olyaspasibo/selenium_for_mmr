@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8aa79af-e044-4834-8e69-48d6fa32736e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MRS_MSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MRS_MSS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChangeTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jars/allure-java-commons-2.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jars/testng-7.1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTimerTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlaySession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MRS_MSS-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MRS_MSS-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jars/allure-java-commons-2.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jars/testng-7.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AuthPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AuthPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings/WebDriverSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChangeTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InstrumentSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTimerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlaySession.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,13 +41,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MRS_MSS" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
+            <state relative-caret-position="266">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -64,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="720">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +94,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UserAuthTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +118,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="32">
+              <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ContentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="600">
               <caret line="55" selection-start-line="55" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,6 +163,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ju</find>
+      <find>Lond</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,16 +175,17 @@
         <option value="$PROJECT_DIR$/src/test/java/MyTimerTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Auth.java" />
         <option value="$PROJECT_DIR$/src/test/java/AuthPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Auth.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlaySession.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChangeTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LogInTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/LogIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogInTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserAuthTest.java" />
       </list>
     </option>
   </component>
@@ -151,6 +195,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MRS_MSS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
@@ -162,7 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,14 +300,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/drivers" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -272,27 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogInTest.firstTest1">
-    <configuration name="Auth.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MRS_MSS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Auth" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogInTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MRS_MSS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LogInTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UserAuthTest.test">
     <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MRS_MSS" />
       <option name="PACKAGE_NAME" value="" />
@@ -328,6 +363,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogInTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MRS_MSS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12.0.1" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MRS_MSS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12.0.1" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserAuthTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/olgaspasibo/Downloads/MRS_MSS/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="MRS_MSS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -347,21 +426,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12.0.1" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Auth.firstTest" />
-      <item itemvalue="JUnit.LogInTest.firstTest" />
       <item itemvalue="TestNG./Users/olgaspasibo/Downloads/MRS_MSS/testng.xml" />
-      <item itemvalue="TestNG.LogInTest.firstTest" />
       <item itemvalue="TestNG.LogInTest" />
       <item itemvalue="TestNG.LogInTest.firstTest1" />
+      <item itemvalue="TestNG.LogInTest.firstTest" />
+      <item itemvalue="TestNG.LogInTest.test" />
+      <item itemvalue="TestNG.UserAuthTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserAuthTest.test" />
+        <item itemvalue="TestNG.LogInTest.test" />
         <item itemvalue="TestNG.LogInTest.firstTest1" />
         <item itemvalue="TestNG.LogInTest" />
         <item itemvalue="TestNG.LogInTest.firstTest" />
-        <item itemvalue="JUnit.Auth.firstTest" />
-        <item itemvalue="JUnit.LogInTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -389,67 +487,76 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 12m 02s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 14h 08m 09s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 19m 04s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 14h 27m 16s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 22m 47s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 15h 28m 31s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 25m 51s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 15h 30m 19s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 26m 39s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 16h 11m 15s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 31m 04s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 16h 12m 48s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 53m 20s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 16h 48m 48s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 54m 28s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 16h 52m 44s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 56m 08s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="LogInTest_test - 2021.01.19 at 16h 52m 57s.xml">
+      <configuration name="LogInTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogInTest_firstTest1 - 2020.12.04 at 17h 58m 41s.xml">
-      <configuration name="LogInTest.firstTest1" configurationId="TestNG" />
+    <history-entry file="UserAuthTest_test - 2021.01.20 at 18h 17m 58s.xml">
+      <configuration name="UserAuthTest.test" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.3457189" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.3101777" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021097" side_tool="true" weight="0.30533117" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" visible="true" weight="0.27864215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49676898" visible="true" weight="0.27722773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32005495" />
       <window_info anchor="bottom" id="SBT Execute" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" weight="0.3281471" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983845" weight="0.32673267" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.503231" side_tool="true" weight="0.28005657" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.06865913" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -496,6 +603,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,31 +615,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#2120#2121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ChangeTime.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/InstrumentSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Auth.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PlaySession.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyTimerTask.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -539,27 +638,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="720">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ContentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="480">
+          <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -568,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/settings/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="600">
           <caret line="55" selection-start-line="55" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -578,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -588,8 +680,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        <state relative-caret-position="266">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AuthPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -654,7 +766,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
